@@ -98,9 +98,9 @@ class BlogApiController extends Controller
             ->update([
                 'stage' => 'active'
             ]);
-			$message = 'Deleted';
+			$message = 'Actived';
 		}else{ 
-			$message = 'Delete fail';
+			$message = 'Active fail';
 		}
 		return $message;
 	}
@@ -117,9 +117,9 @@ class BlogApiController extends Controller
             ->update([
                 'stage' => 'inactive'
             ]);
-			$message = 'Deleted';
+			$message = 'Inactived';
 		}else{ 
-			$message = 'Delete fail';
+			$message = 'Inactive fail';
 		}
 		return $message;
 	}

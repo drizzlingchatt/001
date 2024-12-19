@@ -5,6 +5,6 @@ Q12: SQL structure
 `picture` varchar(255) DEFAULT NULL,
 `title` TEXT DEFAULT NULL,
 `content` TEXT DEFAULT NULL,
-`created_at` datetime NULL DEFAULT NULL,
-`updated_at` datetime NULL DEFAULT NULL,
+`created_at` datetime NULL DEFAULT CURRENT_TIMESTAMP,
+`updated_at` datetime NULL DEFAULT CURRENT_TIMESTAMP,
 `deleted_at` datetime DEFAULT NULL

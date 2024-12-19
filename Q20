@@ -1,0 +1,6 @@
+Q20:
+It can be hacker attack, stuck on a dead loop because coding error, or business running so well.
+
+We have to collect more data about this: server log, error log, server record, user behavior, 
+and user IP .... Coding problem is easy to define, it  will show on the server log, and error log. 
+We need to check out more service details and user behavior if we are concerned about hacking.

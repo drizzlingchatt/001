@@ -1,0 +1,10 @@
+Q12: SQL structure
+
+`id` int(10) AUTO_INCREMENT NOT NULL,
+`user_id` int(10) NOT NULL,
+`picture` varchar(255) DEFAULT NULL,
+`title` TEXT DEFAULT NULL,
+`content` TEXT DEFAULT NULL,
+`created_at` datetime NULL DEFAULT NULL,
+`updated_at` datetime NULL DEFAULT NULL,
+`deleted_at` datetime DEFAULT NULL

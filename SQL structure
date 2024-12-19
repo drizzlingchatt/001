@@ -5,6 +5,7 @@ Q12: SQL structure
 `picture` varchar(255) DEFAULT NULL,
 `title` TEXT DEFAULT NULL,
 `content` TEXT DEFAULT NULL,
+`stage` ENUM 'active', 'inactive' DEFAULT 'active',
 `created_at` datetime NULL DEFAULT CURRENT_DATE,
 `updated_at` datetime NULL DEFAULT CURRENT_DATE,
 `deleted_at` datetime DEFAULT NULL

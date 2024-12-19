@@ -1,0 +1,3 @@
+Q18:
+Check the number value, number format, text format, text length, any special characters in the text, and even hacking code.(Some databases do not accept emojis but something can.)
+We can check by Javascript on the front end or check by PHP on the back end, even both.

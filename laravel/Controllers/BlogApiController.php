@@ -132,10 +132,7 @@ class BlogApiController extends Controller
         $delete = $request->input('delete') ? $request->input('delete') : '';
         
 		if($post_id && $user_id && $delete){
-            $this_post = Blog::find($post_id)
-            ->update([
-                'deleted_at' => now()
-            ]);
+            $this_post = Blog::where('id', $post_id)->delete();
 			$message = 'Deleted';
 		}else{ 
 			$message = 'Delete fail';
